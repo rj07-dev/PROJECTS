@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Course Availability Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <h1>Student Course Availability Tracker</h1>
+      <p>Simple JavaScript project for tracking course seat availability.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Add Course</h2>
+
+      <form id="courseForm">
+        <div class="form-group">
+          <label for="courseName">Course Name</label>
+          <input type="text" id="courseName" placeholder="Enter course name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="courseCode">Course Code</label>
+          <input type="text" id="courseCode" placeholder="Enter course code" required>
+        </div>
+
+        <div class="form-group">
+          <label for="department">Department</label>
+          <select id="department">
+            <option value="Computer Studies">Computer Studies</option>
+            <option value="Business">Business</option>
+            <option value="Mathematics">Mathematics</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="capacity">Capacity</label>
+            <input type="number" id="capacity" placeholder="Enter capacity" required>
+          </div>
+
+          <div class="form-group">
+            <label for="enrolled">Enrolled</label>
+            <input type="number" id="enrolled" placeholder="Enter enrolled" required>
+          </div>
+        </div>
+
+        <button type="submit">Add Course</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Filter Courses</h2>
+
+      <div class="form-group">
+        <label for="filterDepartment">Filter by Department</label>
+        <select id="filterDepartment">
+          <option value="All">All</option>
+          <option value="Computer Studies">Computer Studies</option>
+          <option value="Business">Business</option>
+          <option value="Mathematics">Mathematics</option>
+        </select>
+      </div>
+
+      <button id="loadSampleBtn" type="button">Load Sample Courses</button>
+    </section>
+
+    <section class="card">
+      <h2>Course Summary</h2>
+      <p id="summary">No courses added yet.</p>
+    </section>
+
+    <section class="card">
+      <h2>Courses</h2>
+      <div id="courseList"></div>
+    </section>
+
+    <section class="card">
+      <h2>Current Time Info</h2>
+      <button id="timeBtn" type="button">Load Time</button>
+      <div id="timeBox"></div>
+    </section>
+  </main>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
