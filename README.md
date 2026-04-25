@@ -1,18 +1,23 @@
-# Projects
+# Portfolio
 
-This repository contains my college web development projects and assignments.
+This repository contains my web development projects and assignments built during college.
 
-## Included Projects
-- HTML and CSS layouts
-- JavaScript-based interactive pages
-- Multi-page websites
-- DOM manipulation and API projects
+## About
+I created this portfolio to keep my projects organized in one place and to showcase the skills I am learning in HTML, CSS, JavaScript, and frontend development.
 
-## Purpose
-These projects helped me practice frontend development, JavaScript logic, and organizing code into clean file structures.
+## Projects
+- Halloween Store Website
+- More projects will be added as I complete them
 
 ## Technologies Used
 - HTML
 - CSS
 - JavaScript
 - GitHub
+- VS Code
+
+## What I Learned
+- Organizing projects into folders
+- Building responsive web pages
+- Using JavaScript for interactivity
+- Managing files with Git and GitHub
