@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Email - Halloween Store</title>
+<link rel="icon" type="image/png" href="/images/favicon.ico">
+<link rel="stylesheet" href="styles/main.css">
+<link rel="stylesheet" href="styles/email.css">
+</head>
+
+<body>
+
+<header>
+    <img src="images/pumpkin.gif" alt="Pumpkin">
+    <h1>The Halloween Store</h1>
+    <h2>For the little Goblin in all of us!</h2>
+</header>
+
+<!-- Top Navigation -->
+<nav>
+<ul class="topnav">
+<li><a href="index.html">Home</a></li>
+<li><a href="products/products.html">Product List</a></li>
+<li><a href="personal.html">Personal</a></li>
+<li><a href="decorations.html">Decorating Ideas</a></li>
+<li><a class="current" href="email.html">Join Email</a></li>
+</ul>
+</nav>
+
+<main>
+
+<!-- Sidebar -->
+<aside>
+<ul class="sidenav">
+<li><a href="products/props.html">Props</a></li>
+<li><a href="products/costumes.html">Costumes</a></li>
+<li><a href="products/special.html">Special FX</a></li>
+<li><a href="products/masks.html">Masks</a></li>
+</ul>
+</aside>
+
+<!-- Content -->
+<section>
+
+<h2>Please enter the following information:</h2>
+
+<form action="subscribe.html">
+
+<label for="fname">First name:</label>
+<input type="text" id="fname" required autofocus><br>
+
+<label for="lname">Last name:</label>
+<input type="text" id="lname" required><br>
+
+<label for="email">Email:</label>
+<input type="email" id="email" required><br>
+
+<label for="zip">Zip Code:</label>
+<input type="text" id="zip"
+       pattern="[0-9]{5}"
+       placeholder="5-digit code"><br>
+
+<button type="submit">Subscribe</button>
+
+</form>
+
+</section>
+
+</main>
+
+<footer>
+<p>&copy; 2018 Ben Murach</p>
+</footer>
+
+</body>
+</html>

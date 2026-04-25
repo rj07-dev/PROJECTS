@@ -1,0 +1,30 @@
+/* Align form nicely */
+form {
+    margin-top: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 130px;
+    margin-top: 10px;
+}
+
+input {
+    width: 250px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+/* Button styling */
+button {
+    margin-top: 15px;
+    padding: 8px 15px;
+    background-color: orange;
+    border: 3px solid black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkorange;
+}

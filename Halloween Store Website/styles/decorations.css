@@ -1,0 +1,160 @@
+html {
+    background-image: url("../images/bats.gif");
+    background-repeat: repeat;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    background-color: white;
+    border: 3px solid black;
+    box-shadow: 5px 5px 15px black;
+    margin: 20px auto;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    border-bottom: 3px solid black;
+    background: linear-gradient(45deg, white, orange 70%, black);
+    line-height: 0.5;
+}
+
+header img {
+    float: left;
+    margin-right: 15px;
+}
+
+header h1 {
+    color: black;
+    text-shadow: 2px 2px 3px black;
+    margin-left: 100px;
+    font-size: 36px;
+}
+
+header h2 {
+    margin-left: 100px;
+    font-size: 23px;
+}
+
+#nav_menu {
+    background: black;
+}
+
+#nav_menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav_menu > ul {
+    display: flex;
+}
+
+#nav_menu > ul > li {
+    position: relative;
+    flex: 1;
+    text-align: center;
+}
+
+#nav_menu a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav_menu a.current {
+    color: orange;
+}
+
+#nav_menu > ul > li:hover > a {
+    background: gray;
+}
+
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 160px;
+    background: black;
+    z-index: 1000;
+}
+
+#nav_menu ul ul li {
+    width: 100%;
+}
+
+#nav_menu ul ul a {
+    text-align: left;
+}
+
+#nav_menu ul ul a:hover {
+    background: gray;
+}
+
+#nav_menu li:hover > ul {
+    display: block;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+    min-height: 400px;
+}
+
+aside {
+    width: 180px;
+}
+
+.sidenav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidenav a {
+    display: block;
+    background: orange;
+    border: 3px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidenav a:hover {
+    background: darkorange;
+}
+
+section {
+    flex: 1;
+    padding-left: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+#slides {
+    width: 350px;
+    margin-top: 20px;
+}
+
+#slides img {
+    display: none;
+    width: 100%;
+    border: 3px solid black;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    padding: 15px;
+    border-top: 3px solid black;
+    background: linear-gradient(45deg, black, orange 70%, white);
+}

@@ -1,0 +1,111 @@
+/* Background */
+html {
+    background-image: url("../images/bats.gif");
+}
+
+/* Page container */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    background-color: white;
+    border: 3px solid black;
+    box-shadow: 5px 5px 15px black;
+    margin: 20px auto;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    border-bottom: 3px solid black;
+    background: linear-gradient(45deg, white, orange 70%, black);
+}
+
+header img {
+    float: left;
+    margin-right: 15px;
+}
+
+header h1 {
+    margin-left: 100px;
+    font-size: 36px;
+}
+
+header h2 {
+    margin-left: 100px;
+}
+
+/* Navigation */
+nav {
+    background: black;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    flex: 1;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background: gray;
+}
+
+/* Layout */
+main {
+    display: flex;
+    padding: 20px;
+}
+
+/* Sidebar */
+aside {
+    width: 180px;
+}
+
+aside a {
+    display: block;
+    background: orange;
+    border: 3px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 0 0 80px;
+}
+tbody td:nth-child(3) {
+    background-color: #F5DEB3;
+}
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: orange;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    border-top: 3px solid black;
+    background: linear-gradient(45deg, black, orange 70%, white);
+}

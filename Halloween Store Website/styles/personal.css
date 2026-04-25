@@ -1,0 +1,153 @@
+html {
+    background-image: url("../images/bats.gif");
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border: 3px solid black;
+    box-shadow: 0 0 15px 5px black;
+}
+
+#wrapper {
+    background-color: white;
+}
+
+/* header */
+header {
+    display: flex;
+    align-items: center;
+    padding: 1.5em 2em;
+    background: linear-gradient(45deg, white, orange 75%, black);
+    border-bottom: 2px solid black;
+}
+
+header img {
+    margin-right: 1em;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 230%;
+    font-family: 'Creepster', cursive;
+    color: black;
+}
+
+header h3 {
+    margin: 0;
+    font-size: 125%;
+}
+
+/* top nav */
+#nav_menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: black;
+}
+
+#nav_menu ul li {
+    width: 20%;
+}
+
+#nav_menu ul li a {
+    display: block;
+    text-align: center;
+    padding: .8em 0;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#nav_menu ul li a.current {
+    color: orange;
+}
+
+/* layout */
+main {
+    display: flex;
+    padding: 1.5em;
+}
+
+aside {
+    width: 160px;
+    margin-right: 2em;
+}
+
+section {
+    width: 580px;
+}
+
+/* side nav */
+#sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar ul li {
+    margin-bottom: .8em;
+    border: 2px solid black;
+}
+
+#sidebar ul li a {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    background-color: orange;
+    padding: .8em;
+}
+
+/* content */
+section h1 {
+    font-size: 200%;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+section video {
+    display: block;
+    margin-bottom: 1.5em;
+}
+
+section h2 {
+    font-size: 160%;
+    margin-bottom: .2em;
+}
+
+section h3 {
+    font-size: 150%;
+    margin-top: 0;
+    margin-bottom: .3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.author {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 90%;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+section p {
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.4;
+    margin-bottom: 1em;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    border-top: 2px solid black;
+    background: linear-gradient(45deg, black, orange 25%, white);
+}
+
+footer p {
+    margin: 0;
+}
