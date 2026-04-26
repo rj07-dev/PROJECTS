@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMT | Features</title>
+
+    <link rel="icon" type="image/jpg" href="favicon-32x32.jpg">
+    <link rel="apple-touch-icon" href="images/EMT.png">
+    <link rel="manifest" href="manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/features.css">
+</head>
+<body>
+
+    <header>
+        <div class="container nav-wrap">
+            <a href="index.html" class="brand">EMT</a>
+
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="features.html" class="active">Features</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>EMT Features</h1>
+            <p>
+                These tools help users build stronger resumes, target job roles more effectively, and improve their chances of getting noticed by recruiters.
+            </p>
+        </div>
+    </section>
+
+    <section class="features-section">
+        <div class="container">
+            <div class="search-box">
+                <h2>Find a Feature</h2>
+                <p>Search words like resume, ATS, formatting, jobs, keywords, or feedback.</p>
+
+                <div class="search-row">
+                    <input type="text" id="featureSearch" placeholder="Try words like resume, jobs, format, feedback">
+                    <button type="button" id="searchBtn">Search</button>
+                </div>
+
+                <p id="searchMsg"></p>
+            </div>
+
+            <div class="features-grid">
+                <article class="feature-card" data-keywords="resume customization editing targeting jobs application resume builder">
+                    <h3>Resume Customization</h3>
+                    <p>Users can change resume content so it better matches different job titles, industries, and employer expectations.</p>
+                </article>
+
+                <article class="feature-card" data-keywords="suggestions feedback field industry technology healthcare business design">
+                    <h3>Field-Specific Suggestions</h3>
+                    <p>EMT gives guidance based on the type of field a person is applying to, such as tech, business, healthcare, or design.</p>
+                </article>
+
+                <article class="feature-card" data-keywords="format layout structure design professional formatting readable">
+                    <h3>Professional Formatting</h3>
+                    <p>The platform encourages a cleaner structure so resumes are easier to read and look more professional to recruiters.</p>
+                </article>
+
+                <article class="feature-card" data-keywords="keywords ats scan matching employers job description">
+                    <h3>Keyword Matching</h3>
+                    <p>Users can compare their resume wording with job descriptions to improve relevance and increase their chances of being noticed.</p>
+                </article>
+
+                <article class="feature-card" data-keywords="quantitative examples achievements impact results guidance">
+                    <h3>Improvement Guidance</h3>
+                    <p>EMT provides guidance on what to improve, including stronger wording and quantitative examples that show employers real impact.</p>
+                </article>
+
+                <article class="feature-card" data-keywords="upload write resume text file create resume input">
+                    <h3>Upload or Write Resume</h3>
+                    <p>Users can either upload a text file or write their resume directly on the website for quick editing and improvement.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 EMT | Features Page</p>
+        </div>
+    </footer>
+
+    <script src="javascript/features.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMT | Pricing</title>
+
+    <link rel="icon" type="image/jpg" href="favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="images/EMT.png">
+    <link rel="manifest" href="manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/pricing.css">
+</head>
+<body>
+
+    <header>
+        <div class="container nav-wrap">
+            <a href="index.html" class="brand">EMT</a>
+
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="features.html">Features</a>
+                <a href="pricing.html" class="active">Pricing</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Choose the Right EMT Plan</h1>
+            <p>
+                EMT offers flexible subscription plans for students, new grads, and young professionals. Choose a billing option and see both before-tax and after-tax pricing.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="section-title">
+                <h2>Subscription Plans</h2>
+                <p>
+                    This page includes pricing cards, subscription actions, payment actions, and a weekly, monthly, or yearly pricing toggle.
+                </p>
+            </div>
+
+            <div class="toggle-box">
+                <button class="toggle-btn active" data-plan="weekly">Weekly</button>
+                <button class="toggle-btn" data-plan="monthly">Monthly</button>
+                <button class="toggle-btn" data-plan="yearly">Yearly</button>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <h3>Basic</h3>
+                    <p>Perfect for students starting their resume journey.</p>
+                    <div class="price" data-weekly="4" data-monthly="12" data-yearly="99">$4 / week</div>
+                    <div class="tax">Before tax: $4.00 | After tax: $4.52</div>
+
+                    <ul>
+                        <li>Resume upload or text entry.</li>
+                        <li>Basic formatting suggestions.</li>
+                        <li>General resume improvements.</li>
+                    </ul>
+
+                    <div class="btn-group">
+                        <button class="btn subscribe-btn">Subscribe</button>
+                        <button class="btn unsubscribe-btn">Unsubscribe</button>
+                        <button class="btn payment-btn">Make Payment</button>
+                    </div>
+                </div>
+
+                <div class="price-card">
+                    <h3>Standard</h3>
+                    <p>Great for new grads applying to multiple jobs.</p>
+                    <div class="price" data-weekly="7" data-monthly="20" data-yearly="159">$7 / week</div>
+                    <div class="tax">Before tax: $7.00 | After tax: $7.91</div>
+
+                    <ul>
+                        <li>ATS keyword optimization.</li>
+                        <li>Stronger bullet point guidance.</li>
+                        <li>Industry-based suggestions.</li>
+                    </ul>
+
+                    <div class="btn-group">
+                        <button class="btn subscribe-btn">Subscribe</button>
+                        <button class="btn unsubscribe-btn">Unsubscribe</button>
+                        <button class="btn payment-btn">Make Payment</button>
+                    </div>
+                </div>
+
+                <div class="price-card">
+                    <h3>Premium</h3>
+                    <p>Best for serious job seekers who want full support.</p>
+                    <div class="price" data-weekly="10" data-monthly="30" data-yearly="229">$10 / week</div>
+                    <div class="tax">Before tax: $10.00 | After tax: $11.30</div>
+
+                    <ul>
+                        <li>Advanced feedback and resume targeting.</li>
+                        <li>Detailed improvement suggestions.</li>
+                        <li>Support for competitive job applications.</li>
+                    </ul>
+
+                    <div class="btn-group">
+                        <button class="btn subscribe-btn">Subscribe</button>
+                        <button class="btn unsubscribe-btn">Unsubscribe</button>
+                        <button class="btn payment-btn">Make Payment</button>
+                    </div>
+                </div>
+            </div>
+
+            <p id="priceMessage" class="message-box"></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 EMT | Pricing Page</p>
+        </div>
+    </footer>
+
+    <script src="javascript/pricing.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMT | Home</title>
+
+    <link rel="icon" type="image/jpg" href="favicon/favicon.ico">
+    <link rel="apple-touch-icon" href="images/EMT.png">
+    <link rel="manifest" href="manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a href="index.html" class="brand">
+                <span class="brand-mark">EMT</span>
+                <span class="brand-text">Future of Job Recruitment</span>
+            </a>
+
+            <nav class="nav">
+                <a href="index.html" class="active">Home</a>
+                <a href="features.html">Features</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="support.html">About Us</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero hero-bg">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <h1>The Future of Job Recruitment Starts Here</h1>
+                    <p>
+                        EMT is built for current students, new grads, and young professionals who
+                        want a better chance of getting noticed by recruiters. Our platform helps
+                        curate your resume so it passes filters, highlights your strongest
+                        experiences, and presents you as a serious candidate.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#resume-box" class="btn primary">Try Your Resume</a>
+                        <a href="pricing.html" class="btn secondary">View Plans</a>
+                    </div>
+                </div>
+
+                <aside class="hero-card">
+                    <h3>Why EMT helps</h3>
+                    <ul>
+                        <li>Curates your resume for recruiter filters and ATS systems.</li>
+                        <li>Highlights the right achievements and experiences.</li>
+                        <li>Suggests areas for improvement with stronger wording.</li>
+                        <li>Encourages quantitative examples that show impact.</li>
+                        <li>Lets users upload or write their resume directly on the site.</li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section" id="resume-box">
+            <div class="container two-col">
+                <div class="card resume-card">
+                    <h2>Build or Upload Your Resume</h2>
+                    <p class="section-text">
+                        Paste your resume into the box below or upload a file to get started.
+                    </p>
+
+                    <form class="resume-form" id="resumeForm">
+                        <label for="resumeText">Paste your resume</label>
+                        <textarea id="resumeText" rows="10" placeholder="Write or paste your resume here..."></textarea>
+
+                        <label for="resumeFile">Or upload a text file</label>
+                        <input type="file" id="resumeFile" accept=".txt,.doc,.docx,.pdf">
+
+                        <button type="submit" class="submit-btn">Submit Resume</button>
+                        <p id="resumeMsg" class="resume-msg"></p>
+                    </form>
+                </div>
+
+                <div class="card">
+                    <h2>How EMT Works</h2>
+                    <p class="section-text">
+                        EMT helps users build stronger resumes, adjust them for different jobs,
+                        and feel more prepared throughout the job search process.
+                    </p>
+
+                    <div class="video-box">
+                        <iframe
+                            width="100%"
+                            height="315"
+                            src="https://www.youtube.com/embed/hJHvdBlSxug"
+                            title="What is a Website?"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section light-section">
+            <div class="container">
+                <div class="section-head center">
+                    <h2>Why students and grads need EMT</h2>
+                    <p>
+                        EMT supports users by improving resume structure, relevance, and presentation
+                        so they are better prepared for a competitive job market.
+                    </p>
+                </div>
+
+                <div class="grid-3">
+                    <article class="card mini-card">
+                        <h3>Targeted Content</h3>
+                        <p>Adjusts resume content so it better matches specific job titles and employer expectations.</p>
+                    </article>
+
+                    <article class="card mini-card">
+                        <h3>Better Presentation</h3>
+                        <p>Encourages cleaner formatting and stronger structure so resumes are easier to read.</p>
+                    </article>
+
+                    <article class="card mini-card">
+                        <h3>Stronger Impact</h3>
+                        <p>Helps users improve wording and include measurable examples that show results.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2026 EMT | Future of Job Recruitment</p>
+        </div>
+    </footer>
+
+<script src="javascript/script.js"></script>
+</body>
+</html>
