@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 4 - Multiplication Table</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <div>
+        <h1>Assignment 4 - Multiplication Table</h1>
+        <p>Enter the number of rows and columns, then click the button to draw the table.</p>
+      </div>
+      <img src="images/multiplication.png" alt="Assignment image" class="header-img">
+    </header>
+
+    <section class="controls-panel">
+      <h2>Table Inputs</h2>
+      <div class="controls">
+        <label for="rows">Rows:</label>
+        <input type="number" id="rows" value="15" min="1" max="15">
+
+        <label for="cols">Columns:</label>
+        <input type="number" id="cols" value="15" min="1" max="15">
+      </div>
+      <button onclick="drawTable()">Click here to draw the table</button>
+    </section>
+
+    <section class="result-panel">
+      <h2>Table Result</h2>
+      <div id="tableOutput"></div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; Assignment 4-RS</p>
+    </footer>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
